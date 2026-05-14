@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-minecraft_clone-0.1.0";
 const contentToCache = [
-    "Build/15f0e5c4173b869da505231974e6a8b7.loader.js",
-    "Build/63a39eee47a1cfebb9c9ca80386888f8.framework.js",
-    "Build/d2169c423539f01f081b1c73c0564857.data",
-    "Build/d74ad8ba696745a28ab804048e9d276d.wasm",
+    "Build/6dba037a5666b2c728e2e741c2e876de.loader.js",
+    "Build/f3bc1a878122c560f725f7c38815fed5.framework.js",
+    "Build/e69884d473a202ea9d682a9360e5b67d.data",
+    "Build/016e610c9462c9c69f2244d60af6f52f.wasm",
     "TemplateData/style.css"
 
 ];
