@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-  <script src="TemplateData/profiler.js"></script>
   </head>
   <body>
     <div id="unity-container">
@@ -58,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/com.yandex.game.minecraft.loader.js";
+      var loaderUrl = buildUrl + "/265fb8c49b8a64d9b1c57924c92265c3.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/com.yandex.game.minecraft.data",
-        frameworkUrl: buildUrl + "/com.yandex.game.minecraft.framework.js",
-        codeUrl: buildUrl + "/com.yandex.game.minecraft.wasm",
+        dataUrl: buildUrl + "/066cdb7c223700ca8a4c6b761cc446ad.data",
+        frameworkUrl: buildUrl + "/63a39eee47a1cfebb9c9ca80386888f8.framework.js",
+        codeUrl: buildUrl + "/ef468134ab434c8d81cee29301e68d12.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "minecraft_clone",
@@ -102,11 +101,6 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-          var profile = unityProfiler.createButton(unityInstance);
-          profile.style.position = 'fixed';
-          profile.style.bottom = '5px';
-          profile.style.left = '5px';
-          document.body.appendChild(profile);
         }).catch((message) => {
           alert(message);
         });
